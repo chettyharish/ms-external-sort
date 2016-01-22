@@ -23,25 +23,12 @@ use the following syntax to run the code
 	current_ip_address: The IP address of the computer where you are running the code.
 	machinefile: List of 8 machines which are authenticated for direct ssh.
 	start_socket: Uses sockets from the start_socket value to start_socket + 8 for the 9 machines.
-Example: time  ./server_king ../cop5570a/test0 192.168.28.124 machinefile
+Example: time  ./server_king ../test0 192.000.000.000 machinefile
 
 Output:
 -->The server_king writes back every 10th element to create the file final_answer.
 -->The server_king generates a lot of information about what is happening in the background.
 -->The client_king's generate a log while executing (which is removed at termination)
-
-
-Useful information:
-All the authentications are for cop5570c:
-HostName c5570-1.cs.fsu.edu		Alias : m1 		IP addr = 192.168.28.124
-HostName c5570-2.cs.fsu.edu		Alias : m2 		IP addr = 192.168.28.125
-HostName c5570-3.cs.fsu.edu		Alias : m3 		IP addr = 192.168.28.126
-HostName c5570-4.cs.fsu.edu		Alias : m4 		IP addr = 192.168.28.127
-HostName c5570-5.cs.fsu.edu		Alias : m5 		IP addr = 192.168.28.128
-HostName c5570-6.cs.fsu.edu		Alias : m6 		IP addr = 192.168.28.131
-HostName c5570-7.cs.fsu.edu		Alias : m7 		IP addr = 192.168.28.132
-HostName c5570-8.cs.fsu.edu		Alias : m8 		IP addr = 192.168.28.133
-HostName c5570-9.cs.fsu.edu		Alias : m9 		IP addr = 192.168.28.134
 
 
 Working:
